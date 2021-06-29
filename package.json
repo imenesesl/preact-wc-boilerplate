@@ -1,0 +1,26 @@
+{
+  "name": "preact-wc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "demo": "parcel src/mf/index.html",
+    "build": "npm run remove:dist && parcel build src/mf/index.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "remove:dist": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/preact-custom-element": "^4.0.0",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "preact": "^10.5.13",
+    "preact-custom-element": "^4.2.1",
+    "preact-router": "^3.2.1"
+  }
+}
